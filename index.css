@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Nanum+Gothic&display=swap');
+
+body {
+  font-family: "Mukta", sans-serif;
+  background: linear-gradient(360deg, #ff9a9e, #ffa88f);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+    width: 530px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.error-message
+{
+    color: red;
+    font-size: 12px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* css of the Quiz */
+
+
+.quiz-container {
+  width: 530px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-container h1 {
+  text-align: center;
+  color: #333;
+}
+
+.quiz {
+  margin-bottom: 20px;
+}
+
+.question {
+  font-weight: bold;  
+  margin-bottom: 15px;
+}
+
+.quiz-container .options {
+  margin-bottom: 15px;
+}
+
+.quiz-container option {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.quiz-container button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.hide{
+  display: none;
+}
+
+.back
+{
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+.question-one
+{
+  text-align: center;
+}
+
+.correct-word
+{
+  font-size: 25px;
+  color: darkturquoise;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
